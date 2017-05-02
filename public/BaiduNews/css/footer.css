@@ -1,0 +1,64 @@
+.footer {
+    height: 44px;
+    width: 100%;
+    background-color: rgb(62, 152, 240);
+    position: relative;
+}
+
+.footerBox {
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.footerBox>div {
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    line-height: 44px;
+    font-size: 13px;
+}
+
+.fooFeedback_img {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/bg-footer_7e7ec6c.png) 1px 3px no-repeat;
+    background-size: 30px 300px;
+}
+
+.fooApp_img {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/bg-footer_7e7ec6c.png) 1px -31px no-repeat;
+    background-size: 30px 300px;
+}
+
+.fooAppDownload_img {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/bg-footer_7e7ec6c.png) 1px -65px no-repeat;
+    background-size: 30px 300px;
+}
+
+.loadMore {
+    text-align: center;
+    margin: 15px 40px;
+    height: 36px;
+    line-height: 36px;
+    color: #545454;
+    background: #f8f9fa;
+    border: 1px solid #ebedef;
+    cursor: pointer;
+}

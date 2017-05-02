@@ -1,0 +1,67 @@
+.header {
+    height: 44px;
+    width: 100%;
+    background: rgb(62, 152, 240) url(../img/bg-news-logo_344ce44.png) 0 0 no-repeat;
+    background-size: 77px;
+    background-position: 50%;
+}
+
+.headerTools {
+    width: 34px;
+    height: 100%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.headerLeft {
+    float: left;
+    display: inline-block;
+    height: 44px;
+    width: auto;
+}
+
+.headerRight {
+    float: right;
+    display: inline-block;
+    height: 44px;
+    width: auto;
+}
+
+.toBaidu {
+    background: url(../img/bg-new-toolbar_6e9bc53.png) 0 0 no-repeat;
+    background-position: 50% 6px;
+    background-size: 40px 500px;
+}
+
+.toUser {
+    background: url(../img/bg-new-toolbar_6e9bc53.png) 0 0 no-repeat;
+    background-position: 50% -463px;
+    background-size: 40px 500px;
+}
+
+.toSearch {
+    background: url(../img/bg-new-toolbar_6e9bc53.png) 0 0 no-repeat;
+    background-position: 50% -162px;
+    background-size: 40px 500px;
+}
+
+.toAddTools {
+    background: url(../img/bg-new-toolbar_6e9bc53.png) 0 0 no-repeat;
+    background-position: 50% -107px;
+    background-size: 40px 500px;
+}
+
+.divider {
+    position: relative;
+    height: 1px;
+    margin: 0 10px;
+    background-color: #5dabf0;
+    z-index: 600;
+}
+
+body {
+    position: relative;
+    min-width: 320px;
+    max-width: 700px;
+}

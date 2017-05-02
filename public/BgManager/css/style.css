@@ -1,0 +1,295 @@
+/*
+ * Title: Pure CSS3 Backend Panel
+ * Author: Clear
+ * Version: 1.0.0
+ * Create: 2015-06-05
+ * Update: 2015-06-05
+ */
+
+
+/* CSS Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: normal;
+}
+
+body {
+    background: #1ABC9C !important;
+    font-family: "Segoe UI", "Microsoft YaHei";
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    min-height: 110px;
+    margin-bottom: 0px;
+}
+
+header h1 {
+    /*margin-top: 100px;*/
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+header a {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.copyright {
+    font-size: 25px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.ease {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.container {
+    width: 100%;
+    /*    min-width: 1200px*/
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Backend Panel Start */
+
+.clear-backend {
+    background: #fff;
+    width: 1140px;
+    height: 800px;
+    position: relative;
+}
+
+.avatar {
+    background: #f0f0f0;
+    width: 200px;
+    height: 200px;
+}
+
+.avatar div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.avatar div img {
+    width: 100%;
+    height: auto;
+}
+
+.clear-backend > input {
+    position: absolute;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.clear-backend > input:hover {
+    cursor: pointer;
+}
+
+.clear-backend > input:hover + span,
+.clear-backend > input:checked + span {
+    background: #fff;
+    color: #1ABC9C;
+}
+
+.clear-backend > input:checked + span + i {
+    color: #1ABC9C;
+}
+
+.clear-backend > i {
+    position: absolute;
+    margin-top: -40px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.clear-backend > span,
+.clear-backend > i {
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.clear-backend > input,
+.clear-backend > span {
+    background: #f0f0f0;
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    z-index: 9;
+}
+
+.top-bar {
+    background: #f0f0f0;
+    color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 200px);
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    z-index: 9;
+}
+
+.top-bar li {
+    float: right;
+}
+
+.top-bar a {
+    display: block;
+    padding: 0 20px;
+    color: black;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.top-bar a:hover {
+    color: #1ABC9C;
+}
+
+.top-bar li:hover {
+    background: #fff;
+}
+
+.tab-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 200px);
+    height: 100%;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.tab-content section {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-right: 0px;
+    display: none;
+}
+
+.clear-backend > input.tab-1:checked ~ .tab-content .tab-item-1 {
+    display: block;
+    overflow: hidden;
+}
+
+.clear-backend > input.tab-2:checked ~ .tab-content .tab-item-2 {
+    display: block;
+}
+
+.clear-backend > input.tab-3:checked ~ .tab-content .tab-item-3 {
+    display: block;
+}
+
+.clear-backend > input.tab-4:checked ~ .tab-content .tab-item-4 {
+    display: block;
+}
+
+.clear-backend > input.tab-5:checked ~ .tab-content .tab-item-5 {
+    display: block;
+}
+
+.clear-backend > input.tab-6:checked ~ .tab-content .tab-item-6 {
+    display: block;
+}
+
+.clear-backend > input.tab-7:checked ~ .tab-content .tab-item-7 {
+    display: block;
+}
+
+.clear-backend > input.tab-8:checked ~ .tab-content .tab-item-8 {
+    display: block;
+}
+
+.clear-backend > input.tab-9:checked ~ .tab-content .tab-item-9 {
+    display: block;
+}
+
+.clear-backend > input.tab-10:checked ~ .tab-content .tab-item-10 {
+    display: block;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1367px) {}
+
+@media screen and (max-width: 1281px) {}
+
+@media screen and (max-width: 1025px) {}
+
+@media only screen and (max-width: 961px) {}
+
+@media only screen and (max-width: 641px) {
+    .avatar,
+    .clear-backend > input,
+    .clear-backend > span {
+        width: 60px;
+        height: 60px;
+    }
+    .clear-backend > span {
+        filter: alpha(opacity=0);
+        opacity: 0;
+    }
+    .avatar div {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        top: 5px;
+        left: 5px;
+    }
+    .top-bar,
+    .tab-content {
+        width: calc(100% - 60px);
+    }
+}
+
+@media only screen and (max-width: 481px) {}

@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/BgManager-content.css">
+    <link rel="stylesheet" href="bootstrap/3.3.5/css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="htmleaf-container">
+        <header class="htmleaf-header">
+            <h1>—— * 百度新闻 * ——<span>后台管理</span></h1>
+        </header>
+        <div class="container">
+            <div class="clear-backend">
+                <div class="avatar">
+                    <div>
+                        <a target="_blank">
+                            <img src="img/50346fdb444ec_200x200_3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- tab-menu -->
+                <input type="radio" class="tab-1 focused" name="tab" checked="checked">
+                <span>推荐</span><i class="fa fa-star"></i>
+
+                <input type="radio" class="tab-2" name="tab">
+                <span>百家</span><i class="fa fa-user-plus"></i>
+
+                <input type="radio" class="tab-3" name="tab">
+                <span>本地</span><i class="fa fa-institution"></i>
+
+                <input type="radio" class="tab-4" name="tab">
+                <span>互联网</span><i class="fa fa-connectdevelop"></i>
+
+                <input type="radio" class="tab-5" name="tab">
+                <span>科技</span><i class="fa fa-cloud-upload"></i>
+
+                <input type="radio" class="tab-6" name="tab">
+                <span>女人</span><i class="fa fa-venus"></i>
+
+                <input type="radio" class="tab-7" name="tab">
+                <span>图片</span><i class="fa fa-photo"></i>
+
+                <input type="radio" class="tab-8" name="tab">
+                <span>军事</span><i class="fa fa-space-shuttle"></i>
+
+                <input type="radio" class="tab-9" name="tab">
+                <span>社会</span><i class="fa fa-link"></i>
+
+                <input type="radio" class="tab-10" name="tab">
+                <span>娱乐</span><i class="fa fa-desktop"></i>
+
+                <!-- tab-top-bar -->
+                <div class="top-bar">
+                    <ul>
+                        <li class="quit">
+                            <a title="退出">
+                                <i class="fa fa-sign-out"></i>
+                            </a>
+                        </li>
+                        <li class="edititems">
+                            <a title="修改">
+                                <i class="fa fa-edit"></i>
+                            </a>
+                        </li>
+                        <li class="deleteitems">
+                            <a title="删除">
+                                <i class="fa fa-minus"></i>
+                            </a>
+                        </li>
+                        <li class="additems">
+                            <a title="增加">
+                                <i class="fa fa-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- tab-content -->
+                <div class="tab-content">
+                    <section class="tab-item-1">
+                        <h1 style="display:inline-block; margin-right:20px;">推荐</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box">
+                            <!--插入的新闻模板 start-->
+                            <!--
+                            <div class="content-innerbox">
+                                <table class="table-position" border="1">
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="4" scope="row" class="content-item-id"><span class="itemid item_focus">id</span></th>
+                                            <th class="context-item-title"><span class="fa fa-server"></span> 新闻标题</th>
+                                            <td class="context-item-contant1" colspan="3">这里是新闻标题</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="context-item-title"><span class="fa fa-image"></span> 图片地址</th>
+                                            <td class="context-item-contant1" colspan="3">这里是图片地址</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="context-item-title"><span class="fa fa-bars"></span> 内容</th>
+                                            <td class="context-item-contant1" colspan="3">这里是新闻内容</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="context-item-title"><span class="fa fa-calendar"></span> 新闻日期</th>
+                                            <td class="newsTime">这里是新闻时间</td>
+                                            <th class="context-item-title"><span class="fa fa-cart-arrow-down"></span> 来源</th>
+                                            <td class="newsFrom">这里是新闻来源</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+-->
+                            <!--插入的新闻模板 over-->
+                        </div>
+                    </section>
+                    <section class="tab-item-2">
+                        <h1 style="display:inline-block; margin-right:20px;">百家</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                    <section class="tab-item-3">
+                        <h1 style="display:inline-block; margin-right:20px;">本地</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                    <section class="tab-item-4">
+                        <h1 style="display:inline-block; margin-right:20px;">互联网</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                    <section class="tab-item-5">
+                        <h1 style="display:inline-block; margin-right:20px;">科技</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                    <section class="tab-item-6">
+                        <h1 style="display:inline-block; margin-right:20px;">女人</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                    <section class="tab-item-7">
+                        <h1 style="display:inline-block; margin-right:20px;">图片</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                    <section class="tab-item-8">
+                        <h1 style="display:inline-block; margin-right:20px;">军事</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                    <section class="tab-item-9">
+                        <h1 style="display:inline-block; margin-right:20px;">社会</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                    <section class="tab-item-10">
+                        <h1 style="display:inline-block; margin-right:20px;">娱乐</h1><span>已选中：</span><span class="selectedItemNum">0</span><span>个。</span>
+                        <div class="content-box"></div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!--Mask-->
+        <div class="mask"></div>
+        <!--add-->
+        <div class="masktoadditems">
+            <div class="inner">
+                <div class="hd">
+                    <h2><i class="fa fa-plus"></i> 添加新闻<small>&nbsp;&nbsp;To</small>&nbsp;<small><mark class="innerHdItemsName"></mark></small></h2>
+                    <i class="inner-close"></i>
+                </div>
+                <form class="form-position form-horizontal" action="php/insertItems.php">
+                    <div class="form-group">
+                        <label for="title" class="col-sm-2 control-label">新闻标题</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="title" placeholder="新闻标题">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="img_url" class="col-sm-2 control-label">图片地址</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="img_url" placeholder="图片URL">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="content" class="col-sm-2 control-label">新闻内容</label>
+                        <div class="col-sm-10">
+                            <textarea type="text" class="form-control" id="content" placeholder="新闻内容" resize="none"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="time" class="col-sm-2 control-label">新闻时间</label>
+                        <div class="col-sm-10">
+                            <input type="datetime" class="form-control" id="time" placeholder="新闻时间">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="from" class="col-sm-2 control-label">新闻来源</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="from" placeholder="新闻来源">
+                        </div>
+                    </div>
+                    <div class="buttonbox">
+                        <button type="button" class="btn btn-success btn-myown" id="submitOfAddItems">提交</button>
+                        <span class="addConfirm"></span>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <!--delete-->
+        <div class="masktodeleteitems">
+            <div class="inner">
+                <div class="hd">
+                    <h2><i class="fa fa-minus"></i> 删除新闻<small>&nbsp;&nbsp;From</small>&nbsp;<small><mark class="innerHdItemsName"></mark></small></h2>
+                    <i class="inner-close"></i>
+                </div>
+
+                <!--                //删除提示信息-->
+                <div class="deleteNotice">
+                    <span class="deleteConfirm"></span>
+                </div>
+                <form class="form-position form-horizontal" action="php/deleteItems.php">
+
+                    <div class="delBtnBox">
+                        <div class="deleteBtnBox">
+                            <button type="button" class="btn btn-primary" id="needReEdit">我还需要修改</button>
+                        </div>
+                        <div class="deleteBtnBox">
+                            <button type="button" class="btn btn-danger" id="deleteConfirm">确认删除!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--edit-->
+        <div class="masktoedititems">
+            <div class="inner">
+                <div class="hd">
+                    <h2><i class="fa fa-edit"></i> 修改新闻<small>&nbsp;&nbsp;From</small>&nbsp;<small><mark class="innerHdItemsName"></mark></small></h2>
+                    <i class="inner-close"></i>
+                </div>
+                <form class="form-position form-horizontal" action="php/insertItems.php">
+                    <div class="form-group">
+                        <label for="title" class="col-sm-2 control-label">新闻标题</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="editTitle" placeholder="新闻标题">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="img_url" class="col-sm-2 control-label">图片地址</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="editImg_url" placeholder="图片URL">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="content" class="col-sm-2 control-label">新闻内容</label>
+                        <div class="col-sm-10">
+                            <textarea type="text" class="form-control" id="editContent" placeholder="新闻内容" resize="none"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="time" class="col-sm-2 control-label">新闻时间</label>
+                        <div class="col-sm-10">
+                            <input type="datetime" class="form-control" id="editTime" placeholder="新闻时间">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="from" class="col-sm-2 control-label">新闻来源</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="editFrom" placeholder="新闻来源">
+                        </div>
+                    </div>
+                    <div class="buttonbox">
+                        <button type="button" class="btn btn-success btn-myown" id="submitOfEditItems">提交修改</button>
+                        <span class="editConfirm"></span>
+                    </div>
+
+            </div>
+        </div>
+
+        <!--退出-->
+        <div class="masktoquit">
+            <div class="inner">
+                <div class="hd">
+                    <h2><i class="fa fa-sign-out"></i> 退出</h2>
+                    <i class="inner-close"></i>
+                </div>
+
+                <!--退出提示信息-->
+                <div class="quitNotice">
+                    <span class="">确认退出？</span>
+                </div>
+                <form class="form-position form-horizontal" action="php/deleteItems.php">
+
+                    <div class="delBtnBox">
+                        <div class="deleteBtnBox">
+                            <button type="button" class="btn btn-primary" id="goback">返回……</button>
+                        </div>
+                        <div class="deleteBtnBox">
+                            <button type="button" class="btn btn-danger" id="quitConfirm">确认退出!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script data-main="js/bg_main" type="text/javascript" src="js/lib/require.js"></script>
+<!--        <script src="../BgManager/js/add/addItems.js" type="text/javascript"></script>-->
+<!--
+        <script src="../BgManager/js/jquery.min.js" type="text/javascript"></script>
+        <script src="../BgManager/js/base.js" type="text/javascript"></script>
+        <script src="../BgManager/js/deleteItems.js" type="text/javascript"></script>
+        <script src="../BgManager/js/editItems.js" type="text/javascript"></script>
+        <script src="../BgManager/js/addItems.js" type="text/javascript"></script>
+        <script src="../BgManager/js/quit.js" type="text/javascript"></script>
+-->
+</body>
+
+</html>

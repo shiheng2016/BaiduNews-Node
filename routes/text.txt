@@ -1,0 +1,17 @@
+Person.find({ name: "John", surname: "Doe" }, 3, function (err, people) {
+    // finds people with name='John' AND surname='Doe' and returns the first 3 
+});
+
+
+Person.find({ surname: "Doe" }, "name", function (err, people) {
+    // finds people with surname='Doe' and returns sorted by name ascending 
+});
+Person.find({ surname: "Doe" }, [ "name", "Z" ], function (err, people) {
+    // finds people with surname='Doe' and returns sorted by name descending 
+    // ('Z' means DESC; 'A' means ASC - default) 
+});
+
+
+Person.find({ surname: "Doe" }, { offset: 2 }, function (err, people) {
+    // finds people with surname='Doe', skips the first 2 and returns the others 
+});
